@@ -1,0 +1,82 @@
+.post-summary {
+  border: 1px solid gray;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 20px;
+  max-width: 90%;
+  min-height: 225px;
+  padding: 20px;
+  position: relative;
+  text-align: left;
+  vertical-align: middle;
+  width: 400px;
+}
+
+.post-summary-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  text-overflow: ellipsis;
+  width: 300px;
+  word-wrap: break-word;
+}
+
+.post-summary-title-link {
+  color: black;
+  text-decoration: none;
+}
+
+.post-summary-title-link:hover {
+  text-decoration: underline;
+}
+
+.post-summary-subtitle {
+  font-size: 1.15rem;
+  font-weight: 400;
+  margin: 12px 0 15px;
+  word-wrap: break-word;
+}
+
+.post-summary-subtitle-author {
+  font-style: italic;
+}
+
+.post-summary-metadata {
+  position: absolute;
+  bottom: 25px;
+  width: calc(100% - 50px);
+}
+
+.post-summary-metadata-category {
+  display: inline-block;
+  background: #26cf50;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.post-summary-metadata-votes {
+  display: inline-block;
+  text-align: center;
+  float: right;
+}
+
+.post-summary-metadata-date {
+  text-align: left;
+  font-size: .9rem;
+  margin-top: 12px;
+}
+
+.post-summary-metadata-comments {
+  margin-top: 5px;
+}
+
+.post-summary-metadata-votes-score {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.post-summary-intro {
+  word-wrap: break-word;
+}

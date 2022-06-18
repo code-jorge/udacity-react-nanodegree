@@ -1,0 +1,32 @@
+.comment-view {
+  margin-bottom: 45px;
+}
+
+.comment-view-options {
+  display: inline-block;
+  margin-right: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.comment-view-content {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.comment-view-intro-date {
+  margin: 0;
+}
+
+.comment-view-intro {
+  margin-bottom: 15px;
+}
+
+.comment-view-intro-author {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.comment-view-comment {
+  margin-left: 10px;
+}

@@ -1,0 +1,123 @@
+.post-form {
+  margin: 80px auto 0;
+  max-width: 800px;
+  width: 94%;
+}
+
+.post-form-section {
+  margin-bottom: 30px;
+}
+
+.post-form-section-label {
+  margin-right: 10px;
+  vertical-align: middle;
+  width: 100px;
+  display: inline-block;
+}
+
+.post-form-section-input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #c2c2c2;
+  max-width: 690px;
+  width: 90%;
+  font-size: 15px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin: 10px auto;
+}
+
+.post-form-section-input:focus {
+  border-bottom: 1px solid #b7cefA;
+}
+
+.post-form-section-textarea {
+  resize: none;
+  outline: none;
+  border: 1px solid #c2c2c2;
+  border-radius: 3px;
+  display: block;
+  max-width: 800px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 15px;
+  vertical-align: middle;
+  padding: 12px;
+  margin: 20px auto;
+}
+
+.post-form-section-textarea:focus {
+  border: 1px solid #b7cefA;
+}
+
+.post-form-section-select {
+  max-width: 690px;
+  width: 90%;
+  font-size: 15px;
+  margin: 10px auto;
+}
+
+.post-form-section-button {
+  color: #fff;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin: 5px 25px;
+}
+
+.post-form-section-button:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.post-form-section-submit {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.post-form-section-submit:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.post-form-section-cancel {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.post-form-section-cancel:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.post-form-section-view-post {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.post-form-section-view-post:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.post-form-section-submit-area {
+  text-align: center;
+}
+
+.post-form-section-error-alert {
+  background-color: #ffc107;
+  padding: 15px 25px;
+  color: #2c2c2c;
+  font-weight: 200;
+}
